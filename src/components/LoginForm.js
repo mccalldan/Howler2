@@ -40,6 +40,8 @@ export default class LoginForm extends Component {
 		const { nickname, error } = this.state
 		return (
 			<div className="login">
+						<img src={require('./images/howlerWiWolf.png')} />
+
 				<form onSubmit={this.handleSubmit} className="login-form" >
 
 					<label htmlFor="nickname">

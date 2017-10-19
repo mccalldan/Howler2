@@ -1,11 +1,15 @@
 {
-  "name": "chat-app",
+  "name": "howler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "mongodb": "^2.2.33",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-google-auth": "^0.4.0",
+    "react-google-login": "^3.0.0",
     "react-icons": "^2.2.5",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.11",
     "socket.io": "^2.0.3",
     "uuid": "^3.1.0"
