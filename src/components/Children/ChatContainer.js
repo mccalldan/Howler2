@@ -157,7 +157,7 @@ export default class ChatContainer extends Component {
 							</div>
 						):
 						<div className="chat-room choose">
-							<h3>Choose a chat!</h3>
+							<h3>Choose an Event</h3>
 						</div>
 					}
 				</div>

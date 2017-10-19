@@ -50,7 +50,7 @@ const createMessage = ({message = "", sender = ""} = { })=>(
 *		users {Array.string}
 * 
 */
-const createChat = ({messages = [], name = "Community", users = []} = {})=>(
+const createChat = ({messages = [], name = "Events", users = []} = {})=>(
 	{
 		id:uuidv4(),
 		name,
