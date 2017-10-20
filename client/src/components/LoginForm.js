@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { VERIFY_USER } from '../Events'
-// import ReactGoogleAuth from './GoogleAuth.js';
+
 
 export default class LoginForm extends Component {
 	constructor(props) {
@@ -62,6 +62,7 @@ export default class LoginForm extends Component {
 						<div className="error">{error ? error:null}</div>
 
 				</form>
+				
 			</div>
 		);
 	}

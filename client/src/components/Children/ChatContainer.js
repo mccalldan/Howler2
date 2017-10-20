@@ -119,12 +119,11 @@ export default class ChatContainer extends Component {
 		this.setState({activeChat})
 	}
 	render() {
-		const { user, logout } = this.props
-		const { chats, activeChat } = this.state
+		const { user, logout } = this.props;
+		const { chats, activeChat } = this.state;
 		return (
 			<div className="container">
 				<SideBar
-					logout={logout}
 					chats={chats}
 					user={user}
 					activeChat={activeChat}
@@ -135,7 +134,7 @@ export default class ChatContainer extends Component {
 						activeChat !== null ? (
 
 							<div className="chat-room">
-								<ChatHeading name={activeChat.name} />
+								<ChatHeading name={activeChat.name} logout={logout} user={user}/>
 								<Messages 
 									messages={activeChat.messages}
 									user={user}

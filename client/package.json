@@ -1,0 +1,20 @@
+{
+  "name": "howler-client",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-google-auth": "^0.4.0",
+    "react-google-login": "^3.0.0",
+    "react-icons": "^2.2.5",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "react": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

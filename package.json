@@ -1,26 +1,27 @@
 {
-  "name": "howler",
-  "version": "0.1.0",
-  "private": true,
+  "name": "howler-server",
+  "version": "1.0.0",
+  "description": "Project 3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently 'npm run react' 'npm run server'",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mccalldan/Howler2.git"
+  },
+  "author": "Dan, Rick, Shelby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mccalldan/Howler2/issues"
+  },
+  "homepage": "https://github.com/mccalldan/Howler2#readme",
   "dependencies": {
     "mongodb": "^2.2.33",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-google-auth": "^0.4.0",
-    "react-google-login": "^3.0.0",
-    "react-icons": "^2.2.5",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.0.11",
     "socket.io": "^2.0.3",
     "uuid": "^3.1.0"
-  },
-  "scripts": {
-    "start": "concurrently 'npm run react' 'npm run server'",
-    "react": "react-scripts start",
-    "server": "nodemon src/server/index.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",

@@ -4,6 +4,7 @@ import { USER_CONNECTED, LOGOUT } from '../Events'
 import LoginForm from './LoginForm'
 import ChatContainer from './Children/ChatContainer'
 
+
 const socketUrl = "http://localhost:3231"
 export default class Layout extends Component {
 	
@@ -65,6 +66,8 @@ export default class Layout extends Component {
 					:
 					<ChatContainer socket={socket} user={user} logout={this.logout}/>
 				}
+
+				
 			</div>
 		);
 	}
